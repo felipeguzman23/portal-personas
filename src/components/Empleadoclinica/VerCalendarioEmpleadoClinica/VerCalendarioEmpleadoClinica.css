@@ -1,0 +1,42 @@
+.calendario-container {
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.shift-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.shift-table th, .shift-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.shift-table th {
+    background-color: #f4f4f4;
+    font-size: 1.2rem;
+}
+
+.shift-table td {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.available {
+    background-color: #dff0d8;
+}
+
+.occupied {
+    background-color: #f2dede;
+}

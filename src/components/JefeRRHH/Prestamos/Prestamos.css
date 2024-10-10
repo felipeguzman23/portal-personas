@@ -1,0 +1,45 @@
+.solicitudes-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.solicitudes-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.solicitudes-table th, .solicitudes-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.estado-pendiente {
+    color: #f39c12;
+}
+
+.estado-aprobado {
+    color: #27ae60;
+}
+
+.estado-rechazado {
+    color: #e74c3c;
+}
+
+.action-btn {
+    margin-right: 5px;
+}
+
+.aprobar-btn {
+    background-color: #28a745;
+    border: none;
+    color: white;
+}
+
+.rechazar-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+}
